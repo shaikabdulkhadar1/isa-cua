@@ -42,6 +42,7 @@ function App() {
 
   return (
     <div className="bg-stone-50">
+      {console.log(bata)}
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />

@@ -30,6 +30,7 @@ const Info = ({ title, bata }) => {
 
   return (
     <div className="bg-stone-50 p-4 max-w-screen-xl mx-auto">
+      {console.log(bata)}
       <div className="px-6 py-3">
         <motion.h1
           className="m-2 text-4xl font-bold font-outfit"
