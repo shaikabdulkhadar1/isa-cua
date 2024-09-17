@@ -37,7 +37,7 @@ const Info = ({ title, bata }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, ease: "easeInOut", delay: 0.3 }}
         >
-          {titles[fileName]}
+          {title}
         </motion.h1>
       </div>
       {!bata ? (

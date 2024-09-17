@@ -18,7 +18,9 @@ function App() {
   const [bata, setBata] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      const { data } = await axios.get("https://isa-cua.vercel.app/banking");
+      const { data } = await axios.get(
+        "https://isa-cua-backend.vercel.app/banking"
+      );
       // console.log(data);
       setBata(data);
       // console.log(bata);
