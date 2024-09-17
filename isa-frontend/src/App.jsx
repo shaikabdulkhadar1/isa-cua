@@ -48,7 +48,10 @@ function App() {
         <Route path="/ourteam" element={<OurTeam />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resources" element={<Resources />} />
-        <Route path="/resources/:fileName" element={<Info bata={bata} />} />
+        <Route
+          path="/resources/prearrival"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<Error />} />
       </Routes>

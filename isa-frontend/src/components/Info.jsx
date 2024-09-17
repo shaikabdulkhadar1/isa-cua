@@ -3,19 +3,9 @@ import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
-const Info = ({ bata }) => {
+const Info = ({ title, bata }) => {
   // const [bata, setBata] = useState([]);
   // const [users, setUsers] = useState([]);
-  const [activeTab, setActiveTab] = useState(0);
-  const { fileName } = useParams();
-  const titles = {
-    studenthandbook: "Student Hand-Book",
-    prearrival: "Pre Arrival Information",
-    postarrival: "Post Arrival Information",
-    travel: "Travel Information",
-    banking: "Banking Guide",
-    housing: "Housing Guide",
-  };
 
   // useEffect(() => {
   //   const getData = async () => {
