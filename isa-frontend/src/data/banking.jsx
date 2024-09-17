@@ -1,0 +1,100 @@
+const banking = [
+  {
+    title: "Choosing Bank",
+    details: [
+      {
+        subtitle: "",
+        text: "Opening domestic bank accounts before arriving at the university can facilitate a smoother adjustment to your new life. As an international student, having U.S. checking, savings, and credit card accounts can help you avoid foreign transaction fees and provide convenient payment options for books, food, rent, and other necessities. Building a credit history in the United States can also be beneficial for future borrowing needs. Consider applying for a Zolve Account before you leave your home country. The Zolve Account is FDIC insured up to $250,000 through our partner bank.",
+      },
+      {
+        subtitle: "",
+        text: `While opening U.S. bank accounts might seem daunting, the process is relatively straightforward. Here are eight steps to take to set yourself up for U.S. banking success: \n1. Choose a Bank(Research banks in your area or online. Consider factors like fees, interest rates, and services offered.). \n2. Gather Required Information (Determine the specific information the bank needs, such as identification documents (passport, visa), proof of address, and possibly a Social Security number (if available).). \n3. Inquire About Online Account Opening (Ask the bank if you can open an account online. This can save time and effort.). \n4. Check if a Social Security number is required to open a bank account (Clarify whether a Social Security number is necessary to open an account. If not, inquire about alternative identification methods.). \n5. Open Your First Account (Follow the bank's application process, providing the required documentation and information). \n6. Understand International Wire Transfers (Learn about fees, processing times, and the necessary information for sending or receiving international wire transfers.). \n7. Apply for a Credit Card (Consider applying for a credit card to build your credit history and enjoy additional benefits. Research different card options and choose one that aligns with your needs.). \n8. Protect Your Accounts (Implement strong security measures, such as using unique passwords, monitoring your accounts regularly, and reporting any suspicious activity to the bank immediately.).`,
+      },
+    ],
+  },
+  {
+    title: "Student Banking Option",
+    details: [
+      {
+        subtitle: "A Student-Friendly Option",
+        text: "Bank of America Advantage SafeBalance Banking.",
+      },
+      {
+        subtitle: "Key Benefits",
+        text: "\n> No Monthly Maintenance Fee for Students Under 25. \n> No Overdraft Fees. \n> Checkless Banking",
+      },
+      {
+        subtitle: "",
+        text: "If you're a student under 25 looking for a hassle-free and affordable banking solution, the Bank of America Advantage SafeBalance Banking could be a great choice. It offers peace of mind by eliminating overdraft fees and provides convenient ways to manage your finances. \nFor more details, go to https://promotions.bankofamerica.com/student-banking.",
+      },
+    ],
+  },
+  {
+    title: "Application Process",
+    details: [
+      {
+        subtitle: "",
+        text: "Opening a bank account as an international student can be a straightforward process, but it's essential to understand the requirements and steps involved. Here's a general guide:",
+      },
+      {
+        subtitle: "1. Gather Required Documents",
+        text: "\n> Passport: Your primary form of identification. \n> Visa: Proof of your legal status in the United States. \n> I-20 or DS-2019 form: This document is provided by your school and verifies your student status. \n> Proof of address: A utility bill or rental agreement with your U.S. address. \n> Initial deposit: Most banks require a minimum deposit to open an account.",
+      },
+      {
+        subtitle: "2. Choose a Bank",
+        text: "Research banks in your area or online to find one that suits your needs and offers convenient locations. Consider factors like fees, interest rates, and available services.",
+      },
+      {
+        subtitle: "3. Visit the Bank Branch",
+        text: "Schedule an appointment or visit a branch during their operating hours. Bring all the necessary documents with you.",
+      },
+      {
+        subtitle: "4. Complete the Application Process",
+        text: "Fill out the bank's application form and provide the required information. Be prepared to answer questions about your financial situation and reason for opening the account",
+      },
+      {
+        subtitle: "5. Make an Initial Deposit",
+        text: "Deposit the minimum required amount to open the account.",
+      },
+      {
+        subtitle: "6. Activate Your Account",
+        text: "Follow the bank's instructions to activate your account and receive your debit card.",
+      },
+      {
+        subtitle: "7. Set Up Online Banking (Optional)",
+        text: "If available, enroll in online banking to manage your account conveniently.",
+      },
+      {
+        subtitle: "8. Consider Additional Services",
+        text: "Explore other banking products and services, such as savings accounts, credit cards, and overdraft protection.",
+      },
+      {
+        subtitle: "Some useful links",
+        text: "\n> Bank of America: https://about.bankofamerica.com/en/international-student-bank-account \n> Chase Bank: https://www.chase.com/content/dam/chase-ux/documents/digital/resources/us_banking_guide_for_international_students.pdf \n> Wells Fargo: https://www.wellsfargo.com/checking/ \n> Citibank: https://wise.com/us/blog/citibank-international-student-credit-card \n> Capital One: https://www.capitalone.com/learn-grow/money-management/international-student-credit-cards/",
+      },
+      {
+        subtitle: "NOTE",
+        text: "Remember to check the specific requirements and processes of each bank, as they may vary.",
+      },
+    ],
+  },
+  {
+    title: "Credit Cards",
+    details: [
+      {
+        subtitle: "",
+        text: "When used appropriately, credit cards for students can contribute to the development of a prosperous financial future. Student credit cards from Bank of America® are intended to support the development of positive credit behaviors and creditworthiness, which will provide the groundwork for future financial success. We provide credit cards for students with a range of advantages, including reduced interest rates, travel and cash rewards, and more. While you're still at home, create a modern Zolve Account and begin swiping as soon as you arrive. Through your partner bank, the Zolve Account is FDIC insured up to a maximum of $250,000. Use various comparison tool to learn more, then apply online right now for a student Bank of America® credit card.",
+      },
+      {
+        subtitle: "",
+        text: "Here are the different types of credit cards that are offered for students: \n> Bank of America® Customized Cash Rewards for Students \n> Bank of America® Unlimited Cash Rewards for Students \n> BankAmericard® for Students \n> Bank of America® Travel Rewards for Students \n> Zolve Credit Card",
+      },
+      {
+        subtitle: "",
+        text: "For more information, go to \n> BofA - https://www.bankofamerica.com/credit-cards/student-credit-cards/ \n> Zolve - https://products.zolve.com/credit-card/",
+      },
+    ],
+  },
+];
+
+export default banking;
