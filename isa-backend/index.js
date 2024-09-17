@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5000;
 app.use(
   cors({
-    origin: ["https://isa-cua.vercel.app/"],
+    origin: ["https://isa-cua.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
