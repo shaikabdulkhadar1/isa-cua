@@ -51,11 +51,35 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resources" element={<Resources />} />
         <Route
+          path="/resources/studenthandbook"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
+        <Route
           path="/resources/prearrival"
           element={<Info bata={bata} title={"Pre-Arrival Information"} />}
         />
+        <Route
+          path="/resources/postarrival"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
+        <Route
+          path="/resources/travel"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
+        <Route
+          path="/resources/housing"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
+        <Route
+          path="/resources/banking"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
+        <Route
+          path="/resources/faqs"
+          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+        />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
       <Footer />
     </div>
