@@ -16,33 +16,46 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [bata, setBata] = useState([]);
+  const [housingData, setHousingData] = useState([]);
+  const [prearrival, setPrearrival] = useState([]);
+  const [postarrival, setPostarrival] = useState([]);
+  const [travel, setTravel] = useState([]);
+  const [handBook, sethandBook] = useState([]);
+  const [faqs, setFaqs] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
+      const res = await axios.get(
+        "https://isa-cua-backend.vercel.app/studenthandbook"
+      );
       const { data } = await axios.get(
         "https://isa-cua-backend.vercel.app/banking"
       );
-      // console.log(data);
+      const res2 = await axios.get(
+        "https://isa-cua-backend.vercel.app/prearrival"
+      );
+      const res3 = await axios.get(
+        "https://isa-cua-backend.vercel.app/postarrival"
+      );
+      const res1 = await axios.get(
+        "https://isa-cua-backend.vercel.app/housing"
+      );
+      const res4 = await axios.get("https://isa-cua-backend.vercel.app/travel");
+      const res5 = await axios.get("https://isa-cua-backend.vercel.app/faqs");
+      setFaqs(res5.data);
+      sethandBook(res.data);
+      setPrearrival(res2.data);
+      setPostarrival(res3.data);
+      setHousingData(res1.data);
+      setTravel(res4.data);
       setBata(data);
-      // console.log(bata);
     };
 
     fetchData();
   }, []);
-  // const [data, setData] = useState([]);
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const response = await axios.get("http://localhost:5000/banking");
-  //     setData(response.data);
-  //     console.log(data);
-  //   };
-
-  //   fetchData();
-  // }, []);
 
   return (
     <div className="bg-stone-50">
-      {console.log(bata)}
+      {console.log(travel)}
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
@@ -53,31 +66,33 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route
           path="/resources/studenthandbook"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={<Info bata={handBook} title={"Student Hand Book"} />}
         />
         <Route
           path="/resources/prearrival"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={<Info bata={prearrival} title={"Pre-Arrival Information"} />}
         />
         <Route
           path="/resources/postarrival"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={
+            <Info bata={postarrival} title={"Post-Arrival Information"} />
+          }
         />
         <Route
           path="/resources/travel"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={<Info bata={travel} title={"Pre-Arrival Information"} />}
         />
         <Route
           path="/resources/housing"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={<Info bata={housingData} title={"Housing Information"} />}
         />
         <Route
           path="/resources/banking"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={<Info bata={bata} title={"Banking Guide"} />}
         />
         <Route
           path="/resources/faqs"
-          element={<Info bata={bata} title={"Pre-Arrival Information"} />}
+          element={<Info bata={faqs} title={"Frequently Asked Questions"} />}
         />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/*" element={<Error />} />

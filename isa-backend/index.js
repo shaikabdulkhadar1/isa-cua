@@ -5,6 +5,7 @@ const postarrival = require("./postarrival.json");
 const travel = require("./travel.json");
 const housing = require("./housing.json");
 const banking = require("./banking.json");
+const faqs = require("./faqs.json");
 const cors = require("cors");
 
 const app = express();
@@ -38,6 +39,10 @@ app.get("/housing", (req, res) => {
 
 app.get("/banking", (req, res) => {
   res.json(banking);
+});
+
+app.get("/faqqs", (req, res) => {
+  res.json(faqs);
 });
 
 app.listen(PORT, () => {
