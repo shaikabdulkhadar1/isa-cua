@@ -20,7 +20,7 @@ app.get("/studenthandbook", (req, res) => {
   res.json(studenthandbook);
 });
 
-app.get("./prearrival", (req, res) => {
+app.get("/prearrival", (req, res) => {
   res.json(prearrival);
 });
 
