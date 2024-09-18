@@ -41,7 +41,7 @@ app.get("/banking", (req, res) => {
   res.json(banking);
 });
 
-app.get("/faqqs", (req, res) => {
+app.get("/faqs", (req, res) => {
   res.json(faqs);
 });
 
