@@ -11,6 +11,8 @@ export default {
     fontFamily: {
       outfit: ["Outfit", "sans-serif"],
       poppins: ["Poppins", "sans-serif"],
+      samarkan: ["Samarkan", "sans-serif"],
+      roboto: ["Roboto Slab", "sans-serif"],
     },
   },
   plugins: [],

@@ -16,8 +16,8 @@ const Navbar = () => {
     <nav className="bg-stone-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 backdrop-blur">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo} className="h-8 m-1" alt="ISA Logo" />
-          <span className="self-center font-bold whitespace-nowrap font-outfit">
+          <img src={logo} className="m-auto h-8 m-1" alt="ISA Logo" />
+          <span className=" m-auto self-center text-xl font-bold whitespace-nowrap font-samarkan">
             Indian Students' Association
           </span>
         </a>

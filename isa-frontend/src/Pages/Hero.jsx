@@ -53,12 +53,12 @@ const Hero = () => {
           </div>
           <div>
             <motion.h2
-              className="m-2 mt-4 text-5xl font-outfit"
+              className="m-2 mt-4 text-5xl font-roboto font-bold"
               initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut", delay: 0.65 }}
             >
-              Indian Students' Association @ CUA
+              Indian Students Association @ CUA
             </motion.h2>
             <motion.p
               className="m-2 mt-4 text-md font-poppins"
