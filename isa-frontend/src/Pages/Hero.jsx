@@ -222,14 +222,17 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut", delay: 1.0 }}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            maiores ab non mollitia quisquam provident, similique nobis porro
-            doloribus quae dolorum, aut optio cupiditate deserunt. Id, amet
-            veniam tempora fugit possimus in suscipit voluptates! Ratione
-            voluptatibus cupiditate animi itaque ullam! Id in totam qui maxime
-            quasi ipsam adipisci excepturi sint quam voluptatum rerum, tempora
-            voluptas sapiente debitis itaque reiciendis nisi aliquid asperiores
-            architecto sed culpa, est optio.
+            As a member of the Indian Students Association, you'll gain access
+            to a vibrant community of like-minded individuals who share your
+            cultural heritage. Enjoy exclusive events, from cultural
+            celebrations to academic workshops, designed to enrich your college
+            experience. Build lasting friendships and find a support system to
+            rely on as you navigate your academic journey. Take advantage of
+            exclusive resources, including mentorship opportunities from
+            accomplished Indian students who can provide guidance and advice.
+            Discover a wealth of opportunities to connect with your Indian
+            roots, explore your cultural identity, and make a positive impact on
+            your community.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 5 }}
